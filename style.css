@@ -1,0 +1,32 @@
+ .banner {
+    width: 112%; /* Full width */
+    height: auto; /* Auto adjusts height based on image */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.banner img {
+    width: 100%; /* Adjust width of image */
+    height: 400px; /* Set a fixed height if needed */
+    object-fit: cover; /* Makes sure image covers the div without stretching */
+}
+.custom-btn {
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.custom-btn i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+body {
+    background-color: #f4f4f4; /* Light background similar to the screenshot */
+}
